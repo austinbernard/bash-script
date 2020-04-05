@@ -1,6 +1,7 @@
 #!/bin/bash
 #Filename: ifs.sh
 #Description: Illustration of IFS - script that prints what the user's shell is
+#Debug with command: bash -x ./ifs.sh
 
 line="root:x:0:0:root:/root:/bin/bash"
 oldIFS=$IFS;
